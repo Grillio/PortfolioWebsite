@@ -1,7 +1,8 @@
 /* this is for the top navigation bar*/
 topnav {
-    background-color: #333;
+    background-color: green;
     overflow: hidden;
+    
 }
 
 /* The active page */
@@ -12,16 +13,17 @@ topnav a.active{
 
 /* The other pages to select default*/
 topnav a:hover{
-    background-color: #ddd;
+    background-color: black;
     color:black
 }
 
 /* default page */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: green;
+    background-color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
